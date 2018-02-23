@@ -17,8 +17,3 @@ for key in Source:
 		
 plt.show()
 
-'''
-for key in Migration:
-	viz.Migration_Rates(key)		
-
-'''
