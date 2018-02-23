@@ -5,7 +5,7 @@ def get_data():
 	'''
 		Author: 		Matthew Wnuk
 		Last Edit:		Feb 2018
-		Param: 			SourceMaterials, type dictionary
+		Param: 			SourceMaterials, ZillowMaterials: type dictionary
 		
 		Description:	Defines a dictionary containing descriptive labels for data contained at URLs
 						associated with various primary source data. Downloads source material and 
