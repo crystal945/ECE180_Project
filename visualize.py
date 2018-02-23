@@ -22,21 +22,21 @@ class Visualize():
 		plt.xlabel('Year')
 		plt.ylabel('Transaction Prices')
 
-	def	Approved_Construction_Rates(self, key):
+	def Approved_Construction_Rates(self, key):
 		df = pd.read_excel('data/' + key + '.xls', skiprows=10)
 		plt.plot(df['observation_date'], df['SAND706BPPRIV'])
 		plt.title('New Construction, San Diego County')
 		plt.xlabel('Year')
 		plt.ylabel('Num of Approved Construction Plans')
 	
-	def	Consumer_Price_Index(self, key):
+	def Consumer_Price_Index(self, key):
 		df = pd.read_excel('data/' + key + '.xls', skiprows=10)
 		plt.plot(df['observation_date'], df['CUUSA424SAH'])
 		plt.title('Consumer Price Index, San Diego County')
 		plt.xlabel('Year')
 		plt.ylabel('CPI for San Diego County')	
 	
-	def	Median_Income(self, key):
+	def Median_Income(self, key):
 		df = pd.read_excel('data/' + key + '.xls', skiprows=11)
 		plt.plot(df['observation_date'], df['MHICA06073A052NCEN_20161214'])
 		plt.title('Median Income of Resident of San Diego County')
@@ -50,7 +50,7 @@ class Visualize():
 		plt.xlabel('Year')
 		plt.ylabel('Population [1k]')	
 	
-	def	Unemployment_Rate(self, key):
+	def Unemployment_Rate(self, key):
 		df = pd.read_excel('data/' + key + '.xls', skiprows=10)
 		plt.plot(df['observation_date'], df['CASAND5URN'])
 		plt.title('Unemployment Rate, San Diego County')
