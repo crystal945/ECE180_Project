@@ -1,5 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+'''
+	Author: 		Matthew Wnuk
+	Last Edit:		Feb 2018
+		
+	Description:		Class containing methods for visualization of the various data
+'''
 
 class Visualize():
 	def Ownership_Rates(self, key):
