@@ -57,5 +57,9 @@ class Visualize():
 		plt.xlabel('Year')
 		plt.ylabel('Unemployment Rate [%]')	
 		
-
-	
+	def	Rental_Vacancy(self, key):
+		df = pd.read_excel('data/' + key + '.xls', skiprows=3)
+		plt.plot(df['year'], df['San_Diego']*100)
+		plt.title('Rental_Vacancy Rate, San Diego County')
+		plt.xlabel('Year')
+		plt.ylabel('Rental Vacancy Rate [%]')
