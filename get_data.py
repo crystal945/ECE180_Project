@@ -20,6 +20,7 @@ def get_data():
 	SourceMaterials['Resident_Population'] = 'https://github.com/wnukmat/San_Diego_Data/blob/master/resident_population.xls?raw=true'
 	SourceMaterials['Median_Income'] = 'https://github.com/wnukmat/San_Diego_Data/blob/master/median_household_income.xls?raw=true'
 	SourceMaterials['Labor_Statistics'] = 'https://github.com/wnukmat/San_Diego_Data/blob/master/labor_statistics.xlsx?raw=true'
+	SourceMaterials['Rental_Vacancy'] = 'https://github.com/wnukmat/San_Diego_Data/blob/master/Rental_Vacancy.xlsx?raw=true'
 
 	ZillowMaterials = {}
 	ZillowMaterials['SFM_Sale_Price'] = 'http://files.zillowstatic.com/research/public/County/County_Zhvi_SingleFamilyResidence.csv'
